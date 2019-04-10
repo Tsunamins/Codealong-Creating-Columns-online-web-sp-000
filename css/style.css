@@ -71,8 +71,21 @@ figcaption {
   color: red;
 }
 
+/* MEDIA STYLING */
+img, video, audio { 
+  max-width: 100%;
+}
+
+
 
 /* LAYOUT STYLING */
+
+* { /* set for all browsers meaning it will incorp padding and margin into width */
+  -webkit-box-sizing: border-box;  /*older versions of safari*/
+  -mox-box-sizing: border-box; /*older versions of mozilla firefox */
+  box-sizing: border-box;
+}
+  
 .wrapper {
   width: 960px;
   margin: 0 auto; /* 0 for top bottom, auto for left and right */
@@ -114,6 +127,15 @@ figcaption {
 .first { 
   margin-left: 0%
 }
+
+/* SECTION STYLING */
+
+section { 
+  padding; 20px;
+  margin-bottom: 20px;
+  
+}
+  
 
 
 
