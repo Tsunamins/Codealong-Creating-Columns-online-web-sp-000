@@ -135,6 +135,20 @@ section {
   margin-bottom: 20px;
   
 }
+
+/* Social media styling */
+#social {
+  position: fixed;
+  top: 200px;
+  right: 20px;
+  width: 40px;
+  z-index: 1; /* will always be on top of everything else */
+  
+}
+
+#social a { 
+  display: block;
+  width: ;
   
 
 
